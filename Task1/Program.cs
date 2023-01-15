@@ -8,7 +8,7 @@
 
 // 1 Ввод N  int <- (string)
 
-int GetVal(string text)
+int GetVal  (string text)
 {
 Console.Write("Введите чиcлo: ");
 return Convert.ToInt32(Console.ReadLine());
@@ -16,7 +16,7 @@ return Convert.ToInt32(Console.ReadLine());
 
 // 2 Создание массива  int[] <- (int)
 
-int[] CreateArray(int size)
+int[]  CreateArray(int size)
 {
 int[] array = new int[size];
 return array;
@@ -24,7 +24,7 @@ return array;
 
 // 3 Заполнение массива void <- (int[])
 
-void FillArray(int[] collection)
+void FillArray (int[] collection)
 {
   int length = collection.Length;
   int index = 0;
@@ -37,7 +37,7 @@ void FillArray(int[] collection)
 
 // 4 Печать массива string <- (int[])
 
-void PrintArray(int[] col)
+void PrintArray (int[] col)
 {
  int count = col.Length;
 
@@ -50,7 +50,7 @@ void PrintArray(int[] col)
 
 // 5 конвертация из 2-ого в 10-ое  int <- (int[])
 
-int Binarr (int[] arrBin)
+int Binar  (int[] arrBin)
 {
      int count = arrBin.Length;
      int exponent = arrBin.Length - 1;

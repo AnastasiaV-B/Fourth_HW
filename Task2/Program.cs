@@ -13,4 +13,4 @@ int num = i % 10;
 i = i / 10;
 sum = sum + num;
 }
-Console.WriteLine("ответ: " + sum);
+Console.WriteLine("ответ - сумма цифр = " + sum);
